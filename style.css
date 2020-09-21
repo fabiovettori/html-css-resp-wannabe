@@ -83,14 +83,14 @@ img {
 
     #lezioni .row>.left,
     #lezioni .row>.right {
+      float: none;
       width: 100%;
-      float: 100%;
     }
 
     #steps .row>.left,
     #steps .row>.central,
     #steps .row>.right {
-      float: 100%;
+      float: none;
       width: 100%;
     }
 
