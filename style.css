@@ -74,9 +74,11 @@ img {
 
 @media (max-width: 420px) {
     .row {
-      width: calc(100% - 40px);
-      margin-left: 20px;
-      margin-right: 20px;
+      width: 100%;
+    }
+
+    .container {
+        padding: 30px;
     }
 
     #lezioni .row>.left,
@@ -90,5 +92,9 @@ img {
     #steps .row>.right {
       float: 100%;
       width: 100%;
+    }
+
+    #steps .central, #lezioni .right, #why .row>.first, #why .row>.second, #why .row>.third {
+        margin: 50px auto;
     }
 }
