@@ -50,7 +50,7 @@
 #why .row img {
   background-color: #428bca;
   border-radius: 50%;
-  padding: 30px
+  padding: 30px;
 }
 
 /* COMMON */
@@ -78,7 +78,8 @@ img {
     }
 
     .container {
-        padding: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     #lezioni .row>.left,
@@ -96,5 +97,11 @@ img {
 
     #steps .central, #lezioni .right, #why .row>.first, #why .row>.second, #why .row>.third {
         margin: 50px auto;
+    }
+
+    img, #why .row img {
+        height: auto;
+        width: 100%;
+        padding: 0;
     }
 }
